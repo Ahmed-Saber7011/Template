@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+  
+}
+/*Navbar*/
+.navbar{
+    width: 100%;
+    height:50px;
+    background:#360836;    
+}
+.navbar ul{list-style: none;text-align: center;line-height: 50px}
+.navbar ul li{display: inline-block}
+.navbar ul li a{color: #ff0048;
+text-decoration: none;
+    margin-left: 15px;
+    font-size: 25px;
+}
+.navbar ul li a.active{color: #fff}
+/*web folk*/
+.web{
+    width: 100%;
+    height: 500px;
+    background: url(../img/cover.png);
+    background-size: cover;
+    text-align:center;
+    position: relative;
+    
+}
+.web .folk{margin-bottom: 80px;
+padding-top: 80px;}
+.web .folk h2{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    color: aliceblue;
+}
+.web .folk  p{letter-spacing: 10px;
+font-size: 20px;
+color: #fff;
+}
+.web .dream p{
+    color: aliceblue;
+    font-size: 20px;
+}
+.web .work{
+    position: absolute;
+    bottom: 0;
+    color: aliceblue;
+    left: 44%;
+    background: #ff0048;
+    padding: 15px;
+    width: 200px;
+    font-size: 20px;
+ 
+}
+.web .work:after {content:"";
+border-top: 20px solid #ff0048;
+border-right:20px solid transparent;
+border-left: 20px solid transparent;
+    position: relative;
+    top: 55px;
+    left: -70px;
+    
+}
+/*img*/
+.imag{
+    width: 100%;}
+.imag .img{
+    width: 25%;
+    height: 252px;
+    background: url(../img/image_1.jpg);
+    float: left;
+}
+.imag .img .over{width: 100%;height:100%;
+    background:#000;
+background: rgba(0,0,0,0.5);
+    opacity: 0;
+}
+.imag .img:hover .over{opacity: 1;}
+.imag .i-1{ background: url(../img/image_2.jpg) }
+.imag .i-2{ background: url(../img/image_3.jpg)}
+.imag .i-3{ background: url(../img/image_4.jpg)}
+.imag .i-4{ background: url(../img/image_5.jpg)}
+.imag .i-5{ background: url(../img/image_6.jpg)}
+.imag .i-6{ background: url(../img/image_6.jpg)}
+.imag .i-7{ background: url(../img/image_7.jpg)}
+.imag .i-8{ background: url(../img/image_8.jpg)}  
+.imag .i-9{ background: url(../img/image_11.jpg)}
+.imag .i-10{ background: url(../img/image_10.jpg)}
+.imag .i-11{ background: url(../img/image_9.jpg)}
+.clear{clear: both;}
+/*meet*/
+.meet{width: 100%;height: auto; position: relative;text-align: center;padding-bottom: 20px;
+    background: #f5f5f5;}
+.meet .head{
+    position: absolute;
+    top: 0;
+    background: #ff0048;
+    width: 100%;
+    text-align: center;
+    color:aliceblue;
+    font-size: 20px;
+    line-height: 50px;
+}
+.meet h2{margin: 0;padding: 8%;color:#ff0048;font-size:40px; }
+.meet .meet-imag{display: inline-block;}
+.meet .meet-imag h3{color:#ff0048;font-size:28px;letter-spacing:5px;}
+.meet button{width: 150px;background: #000;border:0;color:#fff;padding:10px;}
+/*end*/
+.end{width: 100%;height: 850px;padding-top: 7%;
+    background: url('../img/Cover_2.jpg');text-align: center;}
+.end .content{widows: 400px;display: inline-block;color: #fff;margin-top:15%;margin-left:5%;}
+.end .content h1{margin: 0;padding: 0; }
+.end button{width: 150px;margin-top: 8%;background: #fff;border:0;color:#000;padding:10px;}
+.end .bol{text-align: center;margin-top: 5%}
+.end .bol span{width: 10px;height: 10px;display: inline-block;background: #fff;border-radius:50%;}
+.end .bol span:hover{background:#ff0048; }
+/*footEr*/
+.footer{background: #dadddd;width:100%;height:80px;text-align: center;line-height:80px;font-size:30px;}
+/*************************************    contact    *********************************/
+.contact{width: 100%;height:600px;background: url(../img/coverPage2.PNG);text-align: center;padding-top: 5%;background-size: cover;}
+.contact h2{margin: 0;font-size: 30px;font-style: italic;}
+.contact p{font-size: 25px;}
+.contact .form{width: 500px;height: 650px;margin: auto;}
+.contact .form h1{color: crimson;}
+.contact .form input[type=text],textarea{
+    display: block;width: 100%;height: 35px;border: 0;
+    margin-bottom: 10px;background:#ff0048;color:#fff;padding-left:10px; }
+textarea{height: 200px;}
+.contact .form input[type=submit]{float: right;background: #fff;border:0;padding:10px;cursor:pointer;}
+/*become*/
+.become{width: 100%;height: 400px;background:beige;text-align:center;padding-top:2%;}
+.become h1{margin: 0;color: #df1a5a;font-size:40px;}
+.become p{font-size:20px;}
+/**************************************   BOOK onlin    *******************************/
+.contact .cover{width: 900px;height: 400px;background: #fff;margin:auto;padding-top:5%;}
+.contact .cover .left{width: 45%;float: left;margin-left:5%;height: 250px;}
+.contact .cover .left img{width: 100%;}
+.contact .cover .right{width: 45%;float: right;background: #eee;margin-right:5%;height: 260px;padding-top:5%;}
+.contact .cover .right button{background: #000;color: #fff;border:0;padding:10px;cursor:pointer;}
